@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  27 JAN 2017 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  27 JAN 2017 00:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1297,18 +1297,10 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 121.
+LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 123.
 
 
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 121.
-
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 146.
-
-
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 146.
+LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 123.
 
 The command '\includegraphics [trim = 10mm 20mm 0mm 10mm, clip, width=\s \textw
 idth , angle=-90]{17012501.eps}' has been optimized away. Use '/tikz/external/o
@@ -1319,26 +1311,26 @@ kz/external/optimize=false' to disable this.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 177.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 28058 strings out of 493013
- 671015 string characters out of 6135681
- 1434773 words of memory out of 5000000
- 31030 multiletter control sequences out of 15000+600000
+ 28057 strings out of 493013
+ 671002 string characters out of 6135681
+ 1434908 words of memory out of 5000000
+ 31029 multiletter control sequences out of 15000+600000
  28724 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,13n,96p,786b,1959s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on field-figure1.pdf (1 page, 133240 bytes).
+Output written on field-figure1.pdf (1 page, 133477 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream

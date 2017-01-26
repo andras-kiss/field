@@ -91,6 +91,7 @@ The moment the galvanic connection was established, there was an immediate rise 
 \addplot [domain=0:1000, color=blue] table {13.txt};
 \addplot [domain=0:1000, color=green] table {14.txt};
 \addplot [domain=0:1000, color=green] table {15.txt};
+\node[anchor=north east] at (rel axis cs:0.98,0.98) {A};
 
 %\node[black, above left] at (axis cs:0,-290) {pH 4};
 %\node[black, above right] at (axis cs:0,-290) {pH 6};
@@ -105,6 +106,7 @@ The moment the galvanic connection was established, there was an immediate rise 
 \begin{axis}[ymin=-75, ymax=200, xmin=0, xmax=680, xlabel={time, s}, ylabel={E vs. Ag/AgCl/3 M KCl, mV}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left]
 \addplot [domain=-30:100, color=red, mark=*] table {on_off_100.txt};
 \addplot [domain=-30:100, color=blue, mark=*] table {on_off_1000.txt};
+\node[anchor=north east] at (rel axis cs:0.98,0.98) {B};
 
 %\node[black, above left] at (axis cs:0,-290) {pH 4};
 %\node[black, above right] at (axis cs:0,-290) {pH 6};
