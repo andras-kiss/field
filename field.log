@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  26 JAN 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  26 JAN 2017 17:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1176,58 +1176,7 @@ LaTeX Warning: Reference `eq:rc' on page 1 undefined on input line 87.
 
 LaTeX Warning: Reference `eq:rc' on page 1 undefined on input line 87.
 
-Package epstopdf Info: Source file: <gnuplot_2d.eps>
-(epstopdf)                    date: 2017-01-26 16:58:40
-(epstopdf)                    size: 152291 bytes
-(epstopdf)             Output file: <gnuplot_2d-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 16:58:43
-(epstopdf)                    size: 80262 bytes
-(epstopdf)             Command: <epstopdf --outfile=gnuplot_2d-eps-converted-to
-.pdf gnuplot_2d.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-<gnuplot_2d-eps-converted-to.pdf, id=6, 505.89pt x 722.7pt>
-File: gnuplot_2d-eps-converted-to.pdf Graphic file (type pdf)
-
-<use gnuplot_2d-eps-converted-to.pdf>
-Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 100
-.
-(pdftex.def)             Requested size: 117.0pt x 156.18413pt.
-Package epstopdf Info: Source file: <gnuplot_2d.eps>
-(epstopdf)                    date: 2017-01-26 16:58:40
-(epstopdf)                    size: 152291 bytes
-(epstopdf)             Output file: <gnuplot_2d-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 16:58:43
-(epstopdf)                    size: 80262 bytes
-(epstopdf)             Command: <epstopdf --outfile=gnuplot_2d-eps-converted-to
-.pdf gnuplot_2d.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-File: gnuplot_2d-eps-converted-to.pdf Graphic file (type pdf)
- <use gnuplot_2d-eps-converted-to.pdf>
-Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 100
-.
-(pdftex.def)             Requested size: 117.0pt x 156.18413pt.
-Package epstopdf Info: Source file: <gnuplot_2d_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-26 16:58:40
-(epstopdf)                    size: 0 bytes
-(epstopdf)             Output file: <gnuplot_2d_deconvoluted-eps-converted-to.p
-df>
-(epstopdf)                    date: 2017-01-26 16:58:43
-(epstopdf)                    size: 2217 bytes
-(epstopdf)             Command: <epstopdf --outfile=gnuplot_2d_deconvoluted-eps
--converted-to.pdf gnuplot_2d_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-
-<gnuplot_2d_deconvoluted-eps-converted-to.pdf, id=9, 614.295pt x 794.97pt>
-File: gnuplot_2d_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
-
-<use gnuplot_2d_deconvoluted-eps-converted-to.pdf>
-Package pdftex.def Info: gnuplot_2d_deconvoluted-eps-converted-to.pdf used on i
-nput line 100.
-(pdftex.def)             Requested size: 117.0pt x 141.71411pt.
- [1
+[1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1237,8 +1186,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./abstract-eps-converted-to.pdf>] [3 <./gnuplot_2d-eps-converted-to.pdf> <.
-/gnuplot_2d_deconvoluted-eps-converted-to.pdf> <./field-figure0.pdf
+[2 <./abstract-eps-converted-to.pdf>] [3 <./field-figure0.pdf
 
 pdfTeX warning: pdflatex (file ./field-figure0.pdf): PDF inclusion: invalid oth
 er resource which is no dict (key 'ColorSpace', type <null>); ignored.
@@ -1256,13 +1204,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25332 strings out of 493105
- 600414 string characters out of 6137072
- 757457 words of memory out of 5000000
- 28224 multiletter control sequences out of 15000+600000
+ 25318 strings out of 493105
+ 599991 string characters out of 6137072
+ 755441 words of memory out of 5000000
+ 28212 multiletter control sequences out of 15000+600000
  36423 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,76p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,76p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
@@ -1270,17 +1218,16 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (3 pages, 1008597 bytes).
+ic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on field.pdf (3 pages, 920948 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 39 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
