@@ -73,7 +73,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
-(./field-figure0.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.st
+(./field-figure1.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.st
 y
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
@@ -82,7 +82,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
 \splwrite=\write3
-\openout3 = `field-figure0.spl'.
+\openout3 = `field-figure1.spl'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1093,7 +1093,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-No file field-figure0.aux.
+No file field-figure1.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -1273,26 +1273,15 @@ timized away. Use '/tikz/external/optimize=false' to disable this.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-\openout5 = `field-figure0.dpth'.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+\openout5 = `field-figure1.dpth'.
 
-PGFPlots: reading {1.txt}
+PGFPlots: reading {on_off_100.txt}
 \tikzexternal@dep@file=\write6
-\openout6 = `field-figure0.dep'.
+\openout6 = `field-figure1.dep'.
 
-PGFPlots: reading {2.txt}
-PGFPlots: reading {3.txt}
-PGFPlots: reading {4.txt}
-PGFPlots: reading {5.txt}
-PGFPlots: reading {6.txt}
-PGFPlots: reading {7.txt}
-PGFPlots: reading {8.txt}
-PGFPlots: reading {9.txt}
-PGFPlots: reading {10.txt}
-PGFPlots: reading {11.txt}
-PGFPlots: reading {12.txt}
-PGFPlots: reading {13.txt}
-PGFPlots: reading {14.txt}
-PGFPlots: reading {15.txt}
+PGFPlots: reading {on_off_1000.txt}
 [2
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1307,8 +1296,6 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 
 LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 121.
 
@@ -1342,23 +1329,19 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 28097 strings out of 493013
- 671277 string characters out of 6135681
- 1054976 words of memory out of 5000000
- 31043 multiletter control sequences out of 15000+600000
+ 28058 strings out of 493013
+ 671015 string characters out of 6135681
+ 1434773 words of memory out of 5000000
+ 31030 multiletter control sequences out of 15000+600000
  28724 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,96p,786b,1926s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field-figure0.pdf (1 page, 57248 bytes).
+ 63i,13n,96p,786b,1959s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on field-figure1.pdf (1 page, 133240 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

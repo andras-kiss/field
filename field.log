@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  26 JAN 2017 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  27 JAN 2017 00:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1325,46 +1325,47 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ===== Image 'field-figure0' is up-to-date. ======
+===== Image 'field-figure1' is up-to-date. ======
 
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 94.
+LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 121.
 
 
-LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 94.
+LaTeX Warning: Reference `eq:rc' on page 2 undefined on input line 121.
 
 Package epstopdf Info: Source file: <17012501.eps>
-(epstopdf)                    date: 2017-01-26 23:38:54
-(epstopdf)                    size: 84674 bytes
+(epstopdf)                    date: 2017-01-27 00:05:27
+(epstopdf)                    size: 83144 bytes
 (epstopdf)             Output file: <17012501-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 23:38:57
-(epstopdf)                    size: 52576 bytes
+(epstopdf)                    date: 2017-01-27 00:05:30
+(epstopdf)                    size: 48506 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012501-eps-converted-to.p
 df 17012501.eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<17012501-eps-converted-to.pdf, id=24, 505.89pt x 722.7pt>
+<17012501-eps-converted-to.pdf, id=25, 505.89pt x 722.7pt>
 File: 17012501-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012501-eps-converted-to.pdf>
-Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 103.
+Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 133.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
 Package epstopdf Info: Source file: <17012503_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-26 23:38:54
-(epstopdf)                    size: 83846 bytes
+(epstopdf)                    date: 2017-01-27 00:05:27
+(epstopdf)                    size: 82958 bytes
 (epstopdf)             Output file: <17012503_deconvoluted-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-01-26 23:38:57
-(epstopdf)                    size: 51481 bytes
+(epstopdf)                    date: 2017-01-27 00:05:30
+(epstopdf)                    size: 48402 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012503_deconvoluted-eps-c
 onverted-to.pdf 17012503_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
-<17012503_deconvoluted-eps-converted-to.pdf, id=26, 505.89pt x 722.7pt>
+<17012503_deconvoluted-eps-converted-to.pdf, id=27, 505.89pt x 722.7pt>
 File: 17012503_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012503_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 17012503_deconvoluted-eps-converted-to.pdf used on inp
-ut line 103.
+ut line 133.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
  [2 <./abstract-eps-converted-to.pdf>] [3 <./17012501-eps-converted-to.pdf> <./
 17012503_deconvoluted-eps-converted-to.pdf> <./field-figure0.pdf
@@ -1379,22 +1380,34 @@ er resource which is no dict (key 'Pattern', type <null>); ignored.
 
 pdfTeX warning: pdflatex (file ./field-figure0.pdf): PDF inclusion: invalid oth
 er resource which is no dict (key 'ExtGState', type <null>); ignored.
+> <./field-figure1.pdf
+
+pdfTeX warning: pdflatex (file ./field-figure1.pdf): PDF inclusion: invalid oth
+er resource which is no dict (key 'ColorSpace', type <null>); ignored.
+
+
+pdfTeX warning: pdflatex (file ./field-figure1.pdf): PDF inclusion: invalid oth
+er resource which is no dict (key 'Pattern', type <null>); ignored.
+
+
+pdfTeX warning: pdflatex (file ./field-figure1.pdf): PDF inclusion: invalid oth
+er resource which is no dict (key 'ExtGState', type <null>); ignored.
 >] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./field.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 175.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 27759 strings out of 493013
- 660950 string characters out of 6135681
- 875383 words of memory out of 5000000
+ 27760 strings out of 493013
+ 660963 string characters out of 6135681
+ 875381 words of memory out of 5000000
  30698 multiletter control sequences out of 15000+600000
  36423 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1408,16 +1421,17 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (4 pages, 1045045 bytes).
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on field.pdf (4 pages, 1056580 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

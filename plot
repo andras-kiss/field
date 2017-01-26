@@ -31,15 +31,16 @@ set yrange [-1000:1000]
 set xrange [-1000:1000]
 
 #set cbrange [3:5.3]
-set cbrange [0.08:0.23]
+set cbrange [0.1:0.22]
 set label "A" at -900, 800 tc rgb "white" font ",40" front
 set out "17012501.eps" 
 #splot "17012501.txt" u (($1-10)*100):(($2-10)*100):(-$3/0.023+9) notitle
+#set object 1 circle at 0,0 size 100 front fs transparent solid 1
 splot "17012501.txt" u (($1-10)*100):(($2-10)*100):($3) notitle
 unset label
 
 #set cbrange [3:5.3]
-set cbrange [-0.009:0.009]
+set cbrange [-0.006:0.008]
 set label "B" at -900, 800 tc rgb "white" font ",40" front
 set out "17012503_deconvoluted.eps" 
 #splot "17012503_deconvoluted.txt" u (($1-10)*100):(($2-10)*100):(-$3/0.023+9) notitle

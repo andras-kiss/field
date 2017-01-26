@@ -1,2 +1,15 @@
-field-figure0.pdf: on_off_100.txt
-field-figure0.pdf: on_off_1000.txt
+field-figure0.pdf: 1.txt
+field-figure0.pdf: 2.txt
+field-figure0.pdf: 3.txt
+field-figure0.pdf: 4.txt
+field-figure0.pdf: 5.txt
+field-figure0.pdf: 6.txt
+field-figure0.pdf: 7.txt
+field-figure0.pdf: 8.txt
+field-figure0.pdf: 9.txt
+field-figure0.pdf: 10.txt
+field-figure0.pdf: 11.txt
+field-figure0.pdf: 12.txt
+field-figure0.pdf: 13.txt
+field-figure0.pdf: 14.txt
+field-figure0.pdf: 15.txt
