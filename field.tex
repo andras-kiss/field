@@ -66,6 +66,32 @@ First, consecutive approaching curves were recorded above the corroding AZ63 sam
 The moment the galvanic connection was established, there was an immediate rise of about 140 mV in the measured potential of the microelectrode [fig], which cannot possibly be attributed to the increase of $Mg^{2+}$ activity that far from the source. Also, a 140 mV rise would mean an increase of about 3.5 orders of magnitude in $Mg^{2+}$ activity in less then a second. Even if one argues it's possible 100 $\upmu$m from the source, it cannot be the case 1000 $\upmu$m from it. The only plausable explanation is that sudden change is due to the electric field formed between the two metals. 
 
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[ymin=-75, ymax=200, xmin=0, xmax=680, xlabel={time, s}, ylabel={E vs. Ag/AgCl/3 M KCl, mV}, clip marker paths=true, width=10cm, height=6cm, legend style={draw=none}, legend cell align=left]
+\addplot [domain=-30:100, color=red, mark=*] table {on_off_100.txt};
+\addplot [domain=-30:100, color=blue, mark=*] table {on_off_1000.txt};
+
+%\node[black, above left] at (axis cs:0,-290) {pH 4};
+%\node[black, above right] at (axis cs:0,-290) {pH 6};
+%\addplot +[mark=none] coordinates {(0, -300)-.- (0, -100)};
+%\draw [dashed, black] (axis cs:0,-300) -- (axis cs:0,-100);
+%\addlegendentry{raw recording}
+%\addlegendentry{$E = - 280 + 97 e^{-t/3.76}$}
+%\addlegendentry{$E = - 280 + 97 (e^{-t/9} + e^{-t/0.5577})/2$}
+\end{axis}
+\end{tikzpicture}
+\caption[Transient response of the antimony microelectrode to analyte activity step.]{Transient response of the antimony microelectrode to analyte activity step.
+The measuring and reference electrodes were dipped into buffer solutions with pH = 4 before the measurements started, and pH = 6 at t = 0 s, respectively.
+Eq. \ref{eq:rc} was fitted (red line) on the measurement (gray marks) from the pH step to the end of the curve when potential reaches equilibrium in the pH = 6 buffer.}
+\label{fig:transient}
+\end{figure}
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIGURE EXAMPLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\s{0.25}
 \begin{figure}

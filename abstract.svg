@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="abstract.eps">
+   sodipodi:docname="abstract.svg">
   <defs
      id="defs4">
     <marker
@@ -424,9 +424,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-643.08646"
-     inkscape:cy="1379.3277"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="202.24226"
+     inkscape:cy="789.52838"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -723,7 +723,7 @@
        style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998"
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998"
        d="m 565.15191,455.14903 9.3893,-5.42093 0,10.84186 -9.3893,-5.42093 z"
        id="path21103" />
     <path
@@ -740,10 +740,10 @@
        inkscape:connector-curvature="0"
        id="path21113"
        d="m 579.43917,416.54579 7.37816,-7.94408 3.19069,10.36171 -10.56885,-2.41763 z"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998" />
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998"
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1.40793692999999998"
        d="m 591.44253,379.89652 5.46407,-9.36428 5.37766,9.41415 -10.84173,-0.0497 z"
        id="path21115" />
     <path
