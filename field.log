@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  26 JAN 2017 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  26 JAN 2017 16:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1020,11 +1020,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (./field.aux
-
-LaTeX Warning: Label `fig:label1' multiply defined.
-
-)
+) (./field.aux)
 \openout1 = `field.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1039,7 +1035,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count164
 \scratchdimen=\dimen232
@@ -1137,184 +1134,130 @@ Package gensymb Info: Using \Omega for \ohm on input line 18.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+aett on input line 41.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 Package epstopdf Info: Source file: <abstract.eps>
-(epstopdf)                    date: 2017-01-26 15:38:49
-(epstopdf)                    size: 478126 bytes
+(epstopdf)                    date: 2017-01-26 16:15:39
+(epstopdf)                    size: 698729 bytes
 (epstopdf)             Output file: <abstract-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 15:40:01
-(epstopdf)                    size: 489356 bytes
+(epstopdf)                    date: 2017-01-26 16:15:51
+(epstopdf)                    size: 663654 bytes
 (epstopdf)             Command: <epstopdf --outfile=abstract-eps-converted-to.p
 df abstract.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
 <abstract-eps-converted-to.pdf, id=4, 512.91624pt x 511.9125pt>
 File: abstract-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abstract-eps-converted-to.pdf>
-Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 49.
-(pdftex.def)             Requested size: 187.19714pt x 186.82698pt.
-
-===== Image 'field-figure0' is up-to-date. ======
-[1
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
+Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 56.
+(pdftex.def)             Requested size: 234.0pt x 233.54544pt.
 
 
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
-abstract-eps-converted-to.pdf>]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <gnuplot_2d.eps>
-(epstopdf)                    date: 2017-01-26 15:40:57
+(epstopdf)                    date: 2017-01-26 16:16:03
 (epstopdf)                    size: 152291 bytes
 (epstopdf)             Output file: <gnuplot_2d-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 15:40:58
+(epstopdf)                    date: 2017-01-26 16:16:05
 (epstopdf)                    size: 80262 bytes
 (epstopdf)             Command: <epstopdf --outfile=gnuplot_2d-eps-converted-to
 .pdf gnuplot_2d.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-
-<gnuplot_2d-eps-converted-to.pdf, id=25, 505.89pt x 722.7pt>
+<gnuplot_2d-eps-converted-to.pdf, id=5, 505.89pt x 722.7pt>
 File: gnuplot_2d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use gnuplot_2d-eps-converted-to.pdf>
-Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 108
-.
+Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 74.
+
 (pdftex.def)             Requested size: 117.0pt x 156.18413pt.
 Package epstopdf Info: Source file: <gnuplot_2d.eps>
-(epstopdf)                    date: 2017-01-26 15:40:57
+(epstopdf)                    date: 2017-01-26 16:16:03
 (epstopdf)                    size: 152291 bytes
 (epstopdf)             Output file: <gnuplot_2d-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 15:40:58
+(epstopdf)                    date: 2017-01-26 16:16:05
 (epstopdf)                    size: 80262 bytes
 (epstopdf)             Command: <epstopdf --outfile=gnuplot_2d-eps-converted-to
 .pdf gnuplot_2d.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 File: gnuplot_2d-eps-converted-to.pdf Graphic file (type pdf)
  <use gnuplot_2d-eps-converted-to.pdf>
-Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 108
-.
+Package pdftex.def Info: gnuplot_2d-eps-converted-to.pdf used on input line 74.
+
 (pdftex.def)             Requested size: 117.0pt x 156.18413pt.
 Package epstopdf Info: Source file: <gnuplot_2d_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-26 15:40:57
+(epstopdf)                    date: 2017-01-26 16:16:03
 (epstopdf)                    size: 0 bytes
 (epstopdf)             Output file: <gnuplot_2d_deconvoluted-eps-converted-to.p
 df>
-(epstopdf)                    date: 2017-01-26 15:40:58
+(epstopdf)                    date: 2017-01-26 16:16:05
 (epstopdf)                    size: 2217 bytes
 (epstopdf)             Command: <epstopdf --outfile=gnuplot_2d_deconvoluted-eps
 -converted-to.pdf gnuplot_2d_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
-<gnuplot_2d_deconvoluted-eps-converted-to.pdf, id=28, 614.295pt x 794.97pt>
+<gnuplot_2d_deconvoluted-eps-converted-to.pdf, id=8, 614.295pt x 794.97pt>
 File: gnuplot_2d_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use gnuplot_2d_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: gnuplot_2d_deconvoluted-eps-converted-to.pdf used on i
-nput line 108.
+nput line 74.
 (pdftex.def)             Requested size: 117.0pt x 141.71411pt.
-Package epstopdf Info: Source file: <test.eps>
-(epstopdf)                    date: 2017-01-26 15:40:57
-(epstopdf)                    size: 1327880 bytes
-(epstopdf)             Output file: <test-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 15:41:00
-(epstopdf)                    size: 676300 bytes
-(epstopdf)             Command: <epstopdf --outfile=test-eps-converted-to.pdf t
-est.eps>
-(epstopdf)             \includegraphics on input line 116.
-Package epstopdf Info: Output file is already uptodate.
-
-<test-eps-converted-to.pdf, id=30, 505.89pt x 722.7pt>
-File: test-eps-converted-to.pdf Graphic file (type pdf)
-
-<use test-eps-converted-to.pdf>
-Package pdftex.def Info: test-eps-converted-to.pdf used on input line 116.
-(pdftex.def)             Requested size: 117.0pt x 167.14381pt.
-Package epstopdf Info: Source file: <test_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-26 15:40:57
-(epstopdf)                    size: 0 bytes
-(epstopdf)             Output file: <test_deconvoluted-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-26 15:41:00
-(epstopdf)                    size: 2217 bytes
-(epstopdf)             Command: <epstopdf --outfile=test_deconvoluted-eps-conve
-rted-to.pdf test_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 118.
-Package epstopdf Info: Output file is already uptodate.
-
-<test_deconvoluted-eps-converted-to.pdf, id=31, 614.295pt x 794.97pt>
-File: test_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
-
-<use test_deconvoluted-eps-converted-to.pdf>
-Package pdftex.def Info: test_deconvoluted-eps-converted-to.pdf used on input l
-ine 118.
-(pdftex.def)             Requested size: 117.0pt x 151.40977pt.
- [2 <./field-figure0.pdf
-
-pdfTeX warning: pdflatex (file ./field-figure0.pdf): PDF inclusion: invalid oth
-er resource which is no dict (key 'ColorSpace', type <null>); ignored.
+ [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 
 
-pdfTeX warning: pdflatex (file ./field-figure0.pdf): PDF inclusion: invalid oth
-er resource which is no dict (key 'Pattern', type <null>); ignored.
-
-
-pdfTeX warning: pdflatex (file ./field-figure0.pdf): PDF inclusion: invalid oth
-er resource which is no dict (key 'ExtGState', type <null>); ignored.
->] [3 <./gnuplot_2d-eps-converted-to.pdf> <./gnuplot_2d_deconvoluted-eps-conver
-ted-to.pdf> <./test-eps-converted-to.pdf> <./test_deconvoluted-eps-converted-to
-.pdf>] [4] (./field.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./gnuplot_2d-eps-converted-to.pdf> <./gnuplot_2d_deconvoluted-eps-converted
+-to.pdf> <./abstract-eps-converted-to.pdf>] [3] (./field.aux) ) 
 Here is how much of TeX's memory you used:
- 25337 strings out of 493105
- 600702 string characters out of 6137072
- 754504 words of memory out of 5000000
- 28231 multiletter control sequences out of 15000+600000
+ 25320 strings out of 493105
+ 600284 string characters out of 6137072
+ 756449 words of memory out of 5000000
+ 28219 multiletter control sequences out of 15000+600000
  33992 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,76p,953b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (4 pages, 1419916 bytes).
+ 62i,10n,76p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on field.pdf (3 pages, 887169 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
