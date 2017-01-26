@@ -31,7 +31,7 @@ set yrange [-1000:1000]
 set xrange [-1000:1000]
 
 #set cbrange [3:5.3]
-#set cbrange [0.09:0.14]
+set cbrange [0.08:0.23]
 set label "A" at -900, 800 tc rgb "white" font ",40" front
 set out "17012501.eps" 
 #splot "17012501.txt" u (($1-10)*100):(($2-10)*100):(-$3/0.023+9) notitle
