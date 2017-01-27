@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  27 JAN 2017 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  27 JAN 2017 15:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1134,16 +1134,16 @@ Package gensymb Info: Using \Omega for \ohm on input line 18.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+aett on input line 48.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
@@ -1165,44 +1165,44 @@ Package epstopdf Info: Source file: <abstract.eps>
 (epstopdf)                    size: 662167 bytes
 (epstopdf)             Command: <epstopdf --outfile=abstract-eps-converted-to.p
 df abstract.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
 <abstract-eps-converted-to.pdf, id=22, 512.91624pt x 511.9125pt>
 File: abstract-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abstract-eps-converted-to.pdf>
-Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 79.
+Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 78.
 (pdftex.def)             Requested size: 234.0pt x 233.54544pt.
  [2 <./abstract-eps-converted-to.pdf>]
 ===== Image 'field-figure0' is up-to-date. ======
 ===== Image 'field-figure1' is up-to-date. ======
 Package epstopdf Info: Source file: <17012501.eps>
-(epstopdf)                    date: 2017-01-27 13:38:27
+(epstopdf)                    date: 2017-01-27 15:14:37
 (epstopdf)                    size: 81941 bytes
 (epstopdf)             Output file: <17012501-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-27 13:38:29
+(epstopdf)                    date: 2017-01-27 15:14:39
 (epstopdf)                    size: 48791 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012501-eps-converted-to.p
 df 17012501.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 <17012501-eps-converted-to.pdf, id=33, 505.89pt x 722.7pt>
 File: 17012501-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012501-eps-converted-to.pdf>
-Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 160.
+Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 159.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
 Package epstopdf Info: Source file: <17012503_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-27 13:38:27
+(epstopdf)                    date: 2017-01-27 15:14:37
 (epstopdf)                    size: 81755 bytes
 (epstopdf)             Output file: <17012503_deconvoluted-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-01-27 13:38:29
+(epstopdf)                    date: 2017-01-27 15:14:39
 (epstopdf)                    size: 48687 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012503_deconvoluted-eps-c
 onverted-to.pdf 17012503_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
 <17012503_deconvoluted-eps-converted-to.pdf, id=35, 505.89pt x 722.7pt>
@@ -1210,7 +1210,7 @@ File: 17012503_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012503_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 17012503_deconvoluted-eps-converted-to.pdf used on inp
-ut line 160.
+ut line 159.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
  [3 <./field-figure0.pdf
 
@@ -1262,7 +1262,7 @@ ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (5 pages, 1067292 bytes).
+Output written on field.pdf (5 pages, 1068103 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
