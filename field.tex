@@ -62,8 +62,8 @@ On the other hand, pMg values fallen below the lower limit of detection of Mg IS
 \begin{figure}
 \centering
 % trim = top left bottom right
-\includegraphics[width=0.4\textwidth]{abstract.eps}
-\caption{Caption.}
+\includegraphics[width=0.5\textwidth]{abstract.eps}
+\caption{An electric field is formed between the surfaces of the galvanic couple. The potential difference between the measuring ($\phi_2$) and reference electrode ($\phi_1$) is added to the nernstian potential associated with the activity of the ion which the measuring electrode is selective to.}
 \label{fig:abstract}
 \end{figure}
 
@@ -73,7 +73,7 @@ The potential difference between the surfaces of the anode and the cathode cause
 This phenomena is exploited in Scanning Reference Electrode Technique (SRET), which allows determining corrosion current by measuring the potential variation in the solution with a scanning passive reference probe \cite{SRET1, SRET2, SRET3, SRET4}. 
 The localized electric field SRET has been slowly replaced by the more sensitive Scanning Vibrating Electrode Technique (SVET) in which a simple vibrating probe is sensitive enough to detect small potential gradients arisen from ionic currents in the solution \cite{SVET}. 
 In potentiometric SECM experiments carried out above galvanic couples the ISMEs are subjected to the same effects, therefore as suspected by the above mentioned researchers, electric field can have an unwanted contribution two the potentiometric signal. 
-The potential difference between the points where the electrodes are located is added to the potential difference associated with the primary ion activity at the tip of the measuring electrode:
+The potential difference between the points where the electrodes are located is added to the potential difference associated with the primary ion activity at the tip of the measuring electrode (fig. \ref{fig:abstract}):
 
 \begin{equation}
 \Delta E=E_M-E_R + (\phi_M - \phi_R)
@@ -116,15 +116,16 @@ Consecutive approaching curves were recorded above the corroding AZ63 sample (fi
 \addplot [domain=0:1000, color=red] table {5.txt};
 \addplot [domain=0:1000, color=red] table {6.txt};
 \addplot [domain=0:1000, color=red] table {7.txt};
-\addplot [domain=0:1000, color=blue] table {8.txt};
-\addplot [domain=0:1000, color=blue] table {9.txt};
-\addplot [domain=0:1000, color=blue] table {10.txt};
-\addplot [domain=0:1000, color=blue] table {11.txt};
-\addplot [domain=0:1000, color=blue] table {12.txt};
-\addplot [domain=0:1000, color=blue] table {13.txt};
-\addplot [domain=0:1000, color=green] table {14.txt};
-\addplot [domain=0:1000, color=green] table {15.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {8.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {9.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {10.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {11.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {12.txt};
+\addplot [domain=0:1000, color=blue, dashed] table {13.txt};
+\addplot [domain=0:1000, color=green, densely dashdotted] table {14.txt};
+\addplot [domain=0:1000, color=green, densely dashdotted] table {15.txt};
 \node[anchor=north east] at (rel axis cs:0.98,0.98) {A};
+
 
 %\node[black, above left] at (axis cs:0,-290) {pH 4};
 %\node[black, above right] at (axis cs:0,-290) {pH 6};
@@ -141,16 +142,20 @@ Consecutive approaching curves were recorded above the corroding AZ63 sample (fi
 \addplot [domain=-30:100, color=blue, mark=*] table {on_off_1000.txt};
 \node[anchor=north east] at (rel axis cs:0.98,0.98) {B};
 
-%\node[black, above left] at (axis cs:0,-290) {pH 4};
-%\node[black, above right] at (axis cs:0,-290) {pH 6};
+\node[red, above right] at (axis cs:40,20) {h = 100 $\upmu$m};
+\node[blue, above right] at (axis cs:40,-50) {h = 1000 $\upmu$m};
 %\addplot +[mark=none] coordinates {(0, -300)-.- (0, -100)};
-%\draw [dashed, black] (axis cs:0,-300) -- (axis cs:0,-100);
+\draw [black, ->] (axis cs:320,125) -- (axis cs:320,100);
+\node[black, above] at (axis cs:320,125) {on};
+\draw [black, ->] (axis cs:460,125) -- (axis cs:460,100);
+\node[black, above] at (axis cs:460,125) {off};
+
 %\addlegendentry{raw recording}
 %\addlegendentry{$E = - 280 + 97 e^{-t/3.76}$}
 %\addlegendentry{$E = - 280 + 97 (e^{-t/9} + e^{-t/0.5577})/2$}
 \end{axis}
 \end{tikzpicture}
-\caption{Caption.}
+\caption{(A) Consecutive vertical approach curves above the center of the AZ63 target with a Mg$^{2+}$ ISME. Step size was 10 $\upmu$m. 500 ms settling time was allowed for the potentiometric cell at each points before measurements. Lines in chronological order: solid red = homogeneous corrosion, dashed blue = galvanic corrosion, dashdotted green = homogeneous corrosion. (B) Stationary recordings; red = 100 $\upmu$m, blue = 1000 $\upmu$m above the center of the AZ63 target. On/off notes when galvanic coupling was established or severed. Temporal resolution was 1 Hz.}
 \label{fig:approach}
 \end{figure}
 
