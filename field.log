@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  28 JAN 2017 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  28 JAN 2017 19:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1325,10 +1325,10 @@ Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ===== Image 'field-figure1' is up-to-date. ======
 [3]
 Package epstopdf Info: Source file: <17012501.eps>
-(epstopdf)                    date: 2017-01-28 17:53:42
+(epstopdf)                    date: 2017-01-28 19:49:57
 (epstopdf)                    size: 85715 bytes
 (epstopdf)             Output file: <17012501-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-28 17:53:44
+(epstopdf)                    date: 2017-01-28 19:50:00
 (epstopdf)                    size: 55442 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012501-eps-converted-to.p
 df 17012501.eps>
@@ -1341,11 +1341,11 @@ File: 17012501-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 170.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
 Package epstopdf Info: Source file: <17012503_deconvoluted.eps>
-(epstopdf)                    date: 2017-01-28 17:53:42
+(epstopdf)                    date: 2017-01-28 19:49:57
 (epstopdf)                    size: 82855 bytes
 (epstopdf)             Output file: <17012503_deconvoluted-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-01-28 17:53:44
+(epstopdf)                    date: 2017-01-28 19:50:00
 (epstopdf)                    size: 47308 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012503_deconvoluted-eps-c
 onverted-to.pdf 17012503_deconvoluted.eps>
@@ -1399,7 +1399,7 @@ Here is how much of TeX's memory you used:
  30716 multiletter control sequences out of 15000+600000
  33992 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,96p,2500b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,96p,2495b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
@@ -1416,7 +1416,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (6 pages, 1080410 bytes).
+Output written on field.pdf (6 pages, 1080388 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
