@@ -9,8 +9,8 @@ set pm3d interpolate 2,2
 set term postscript enhanced color
 #set terminal pdf
 
-set xlabel "X / {/Symbol m}m"
-set ylabel "Y / {/Symbol m}m"
+set xlabel "X, {/Symbol m}m"
+set ylabel "Y, {/Symbol m}m"
 #set cblabel "E vs. Ag/AgCl/3M KCl / mV"
 set cblabel "pMg"
 #set palette gray
