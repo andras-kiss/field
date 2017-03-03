@@ -1,2 +1,14 @@
-field-figure1.pdf: on_off_100.txt
-field-figure1.pdf: on_off_1000.txt
+field-figure1.pdf: 1.txt
+field-figure1.pdf: 8.txt
+field-figure1.pdf: 9.txt
+field-figure1.pdf: 10.txt
+field-figure1.pdf: 11.txt
+field-figure1.pdf: 12.txt
+field-figure1.pdf: 13.txt
+field-figure1.pdf: 16_field.txt
+field-figure1.pdf: 9_diff.txt
+field-figure1.pdf: 10_diff.txt
+field-figure1.pdf: 11_diff.txt
+field-figure1.pdf: 12_diff.txt
+field-figure1.pdf: 13_diff.txt
+field-figure1.pdf: 14_diff.txt
