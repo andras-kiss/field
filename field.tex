@@ -126,14 +126,16 @@ A series of consecutive Z-approach curves were recorded above the corroding AZ63
 \addplot [line width=0.5mm, domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {13.txt};
 \addplot [line width=0.5mm, domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14.txt};
 \addplot [domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {15.txt};
+\addplot [line width=0.5mm, domain=0:1000, color=cyan, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {16_field.txt};
+
 \node[anchor=north east] at (rel axis cs:0.98,0.98) {A};
 
 \node[red, left] at (axis cs:100,-65) {a};
 \node[red, left] at (axis cs:100,-48) {b};
 \node[blue, left] at (axis cs:100,-9) {c};
-\node[blue, left] at (axis cs:100,53) {d};
+\node[blue, left] at (axis cs:100,67) {d};
 \node[green, left] at (axis cs:100,-22) {e};
-
+\node[cyan, left] at (axis cs:100,45) {f};
 
 \draw [line width=0.25mm, black, ->] (axis cs:790,-53.5) -- (axis cs:790,-49);
 \node[black, left] at (axis cs:800,-58) {$\Delta$E$_0$};
