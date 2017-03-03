@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  3 MAR 2017 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  3 MAR 2017 15:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1083,23 +1083,11 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 \openout5 = `field-figure1.dpth'.
 
-PGFPlots: reading {1.txt}
+PGFPlots: reading {on_off_100.txt}
 \tikzexternal@dep@file=\write6
 \openout6 = `field-figure1.dep'.
 
-PGFPlots: reading {8.txt}
-PGFPlots: reading {9.txt}
-PGFPlots: reading {10.txt}
-PGFPlots: reading {11.txt}
-PGFPlots: reading {12.txt}
-PGFPlots: reading {13.txt}
-PGFPlots: reading {16_field.txt}
-PGFPlots: reading {9_diff.txt}
-PGFPlots: reading {10_diff.txt}
-PGFPlots: reading {11_diff.txt}
-PGFPlots: reading {12_diff.txt}
-PGFPlots: reading {13_diff.txt}
-PGFPlots: reading {14_diff.txt}
+PGFPlots: reading {on_off_1000.txt}
 [3
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1109,8 +1097,6 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 The command '\includegraphics [trim = 10mm 20mm 0mm 10mm, clip, width=\s \textw
 idth , angle=-90]{17012501.eps}' has been optimized away. Use '/tikz/external/o
 ptimize=false' to disable this.
@@ -1119,21 +1105,20 @@ idth , angle=-90]{17012503_deconvoluted.eps}' has been optimized away. Use '/ti
 kz/external/optimize=false' to disable this.
  ) 
 Here is how much of TeX's memory you used:
- 27237 strings out of 493105
- 650325 string characters out of 6137072
- 922264 words of memory out of 5000000
- 30139 multiletter control sequences out of 15000+600000
+ 25800 strings out of 493105
+ 614443 string characters out of 6137072
+ 1352515 words of memory out of 5000000
+ 28726 multiletter control sequences out of 15000+600000
  27216 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,76p,2960b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field-figure1.pdf (1 page, 44154 bytes).
+ 63i,13n,76p,2960b,1956s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on field-figure1.pdf (1 page, 137199 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
