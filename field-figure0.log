@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  3 MAR 2017 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.21)  3 MAR 2017 14:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1100,6 +1100,12 @@ PGFPlots: reading {13.txt}
 PGFPlots: reading {14.txt}
 PGFPlots: reading {15.txt}
 PGFPlots: reading {16_field.txt}
+PGFPlots: reading {9_diff.txt}
+PGFPlots: reading {10_diff.txt}
+PGFPlots: reading {11_diff.txt}
+PGFPlots: reading {12_diff.txt}
+PGFPlots: reading {13_diff.txt}
+PGFPlots: reading {14_diff.txt}
 [3
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1119,19 +1125,19 @@ idth , angle=-90]{17012503_deconvoluted.eps}' has been optimized away. Use '/ti
 kz/external/optimize=false' to disable this.
  ) 
 Here is how much of TeX's memory you used:
- 27462 strings out of 493105
- 654916 string characters out of 6137072
- 944974 words of memory out of 5000000
- 30361 multiletter control sequences out of 15000+600000
+ 28082 strings out of 493105
+ 670612 string characters out of 6137072
+ 1011095 words of memory out of 5000000
+ 30969 multiletter control sequences out of 15000+600000
  27216 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,13n,76p,2952b,1946s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,76p,2960b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field-figure0.pdf (1 page, 53399 bytes).
+Output written on field-figure0.pdf (1 page, 57658 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

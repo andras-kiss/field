@@ -112,7 +112,7 @@ An attempt was made to distinguish the effect of the electric field from that of
 \centering
 %\includegraphics[width=0.5\textwidth]{field-figure0.pdf}\includegraphics[width=0.466\textwidth]{field-figure1.pdf}
 \begin{tikzpicture}
-\begin{axis}[ymin=-80, ymax=80, xmin=0, xmax=1000, xlabel={height, $\upmu$m}, ylabel={E, mV vs Ag/AgCl/ 3M KCl}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left]
+\begin{axis}[ymin=-80, ymax=80, xmin=0, xmax=1000, xlabel={height, $\upmu$m}, ylabel={E, mV vs Ag/AgCl/ 3M KCl}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left, ytick={-75, -50, -25, 0, 25, 50, 75}]
 \addplot [line width=0.5mm, domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {1.txt};
 \addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {2.txt};
 \addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {3.txt};
@@ -129,6 +129,14 @@ An attempt was made to distinguish the effect of the electric field from that of
 \addplot [line width=0.5mm, domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14.txt};
 \addplot [domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {15.txt};
 \addplot [line width=0.5mm, domain=0:1000, color=cyan, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {16_field.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {9_diff.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {10_diff.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {11_diff.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {12_diff.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {13_diff.txt};
+\addplot [domain=0:1000, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14_diff.txt};
+
+
 
 \node[anchor=north east] at (rel axis cs:0.98,0.98) {A};
 
@@ -139,20 +147,20 @@ An attempt was made to distinguish the effect of the electric field from that of
 \node[green, left] at (axis cs:100,-22) {e};
 \node[cyan, left] at (axis cs:100,45) {f};
 
-\draw [line width=0.25mm, black, ->] (axis cs:790,-53.5) -- (axis cs:790,-49);
+\draw [line width=0.25mm, black, ->] (axis cs:800,-53.5) -- (axis cs:800,-49);
 \node[black, left] at (axis cs:800,-58) {$\Delta$E$_0$};
 
 \draw [line width=0.25mm, black, ->] (axis cs:800,-49) -- (axis cs:800,-22);
 \node[black, left] at (axis cs:800,-36) {$\Delta$E$_1$};
 
-\draw [line width=0.25mm, black, ->] (axis cs:790,-22) -- (axis cs:790,14);
-\node[black, left] at (axis cs:790,10) {$\Delta$E$_2$};
+\draw [line width=0.25mm, black, ->] (axis cs:800,-22) -- (axis cs:800,14);
+\node[black, left] at (axis cs:800,10) {$\Delta$E$_2$};
 
-\draw [line width=0.25mm, black, ->] (axis cs:810,14) -- (axis cs:810,-18);
-\node[black, right] at (axis cs:810,5) {$\Delta$E$_3$};
+\draw [line width=0.25mm, black, ->] (axis cs:830,14) -- (axis cs:830,-18);
+\node[black, right] at (axis cs:830,5) {$\Delta$E$_3$};
 
-\draw [line width=0.25mm, black, ->] (axis cs:820,-49) -- (axis cs:820,-18);
-\node[black, right] at (axis cs:820,-36) {$\Delta$E$_4$};
+\draw [line width=0.25mm, black, ->] (axis cs:830,-49) -- (axis cs:830,-18);
+\node[black, right] at (axis cs:830,-36) {$\Delta$E$_4$};
 \end{axis}
 \end{tikzpicture}
 \begin{tikzpicture}
