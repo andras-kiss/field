@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  4 MAR 2017 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  4 MAR 2017 14:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1349,10 +1349,10 @@ pdfTeX warning: pdflatex (file ./field-figure1.pdf): PDF inclusion: invalid oth
 er resource which is no dict (key 'ExtGState', type <null>); ignored.
 >]
 Package epstopdf Info: Source file: <17012501.eps>
-(epstopdf)                    date: 2017-03-04 14:26:00
+(epstopdf)                    date: 2017-03-04 14:44:58
 (epstopdf)                    size: 85713 bytes
 (epstopdf)             Output file: <17012501-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-04 14:26:02
+(epstopdf)                    date: 2017-03-04 14:45:01
 (epstopdf)                    size: 55448 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012501-eps-converted-to.p
 df 17012501.eps>
@@ -1365,11 +1365,11 @@ File: 17012501-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 185.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
 Package epstopdf Info: Source file: <17012503_deconvoluted.eps>
-(epstopdf)                    date: 2017-03-04 14:26:00
+(epstopdf)                    date: 2017-03-04 14:44:58
 (epstopdf)                    size: 82853 bytes
 (epstopdf)             Output file: <17012503_deconvoluted-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-03-04 14:26:02
+(epstopdf)                    date: 2017-03-04 14:45:01
 (epstopdf)                    size: 47309 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012503_deconvoluted-eps-c
 onverted-to.pdf 17012503_deconvoluted.eps>
@@ -1395,7 +1395,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
 Here is how much of TeX's memory you used:
  27781 strings out of 493013
  661304 string characters out of 6135681
- 886075 words of memory out of 5000000
+ 886155 words of memory out of 5000000
  30723 multiletter control sequences out of 15000+600000
  33992 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1417,7 +1417,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (6 pages, 1106159 bytes).
+Output written on field.pdf (6 pages, 1106175 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
