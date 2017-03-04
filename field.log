@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  4 MAR 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.12)  4 MAR 2017 16:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1274,16 +1274,16 @@ Package gensymb Info: Using \Omega for \ohm on input line 18.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+aett on input line 49.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
@@ -1296,14 +1296,14 @@ Package epstopdf Info: Source file: <abstract.eps>
 (epstopdf)                    size: 676551 bytes
 (epstopdf)             Command: <epstopdf --outfile=abstract-eps-converted-to.p
 df abstract.eps>
-(epstopdf)             \includegraphics on input line 67.
+(epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
 <abstract-eps-converted-to.pdf, id=4, 512.91624pt x 511.9125pt>
 File: abstract-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abstract-eps-converted-to.pdf>
-Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 67.
+Package pdftex.def Info: abstract-eps-converted-to.pdf used on input line 69.
 (pdftex.def)             Requested size: 234.0pt x 233.54544pt.
  [1
 Non-PDF special ignored!
@@ -1349,31 +1349,31 @@ pdfTeX warning: pdflatex (file ./field-figure1.pdf): PDF inclusion: invalid oth
 er resource which is no dict (key 'ExtGState', type <null>); ignored.
 >]
 Package epstopdf Info: Source file: <17012501.eps>
-(epstopdf)                    date: 2017-03-04 15:57:47
+(epstopdf)                    date: 2017-03-04 16:16:21
 (epstopdf)                    size: 85713 bytes
 (epstopdf)             Output file: <17012501-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-04 15:57:50
+(epstopdf)                    date: 2017-03-04 16:16:24
 (epstopdf)                    size: 55448 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012501-eps-converted-to.p
 df 17012501.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
  <17012501-eps-converted-to.pdf, id=78, 505.89pt x 722.7pt>
 File: 17012501-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012501-eps-converted-to.pdf>
-Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 185.
+Package pdftex.def Info: 17012501-eps-converted-to.pdf used on input line 187.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
 Package epstopdf Info: Source file: <17012503_deconvoluted.eps>
-(epstopdf)                    date: 2017-03-04 15:57:47
+(epstopdf)                    date: 2017-03-04 16:16:21
 (epstopdf)                    size: 82853 bytes
 (epstopdf)             Output file: <17012503_deconvoluted-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2017-03-04 15:57:50
+(epstopdf)                    date: 2017-03-04 16:16:24
 (epstopdf)                    size: 47309 bytes
 (epstopdf)             Command: <epstopdf --outfile=17012503_deconvoluted-eps-c
 onverted-to.pdf 17012503_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
 <17012503_deconvoluted-eps-converted-to.pdf, id=80, 505.89pt x 722.7pt>
@@ -1381,21 +1381,21 @@ File: 17012503_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 17012503_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 17012503_deconvoluted-eps-converted-to.pdf used on inp
-ut line 185.
+ut line 187.
 (pdftex.def)             Requested size: 163.80286pt x 218.66751pt.
  [5 <./17012501-eps-converted-to.pdf> <./17012503_deconvoluted-eps-converted-to
 .pdf>] [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (./field.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
  27783 strings out of 493013
- 661317 string characters out of 6135681
- 886187 words of memory out of 5000000
+ 661305 string characters out of 6135681
+ 886348 words of memory out of 5000000
  30724 multiletter control sequences out of 15000+600000
  35483 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1417,7 +1417,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/euler/eurm10.pfb>
-Output written on field.pdf (6 pages, 1110363 bytes).
+Output written on field.pdf (6 pages, 1112644 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
