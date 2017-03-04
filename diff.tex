@@ -1,12 +1,10 @@
 \documentclass[3p]{elsarticle}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL old.tex        Sat Feb 11 14:15:00 2017
+%DIF ADD revision.tex   Sat Mar  4 17:21:40 2017
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{pgfplots}
-\usepackage{pst-plot}
-\usepackage{tikz}
-\usepgfplotslibrary{external}
-\tikzexternalize
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{gensymb}
@@ -14,6 +12,25 @@
 \usepackage{float}
 \usepackage{indentfirst}
 \parskip=0pt
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -21,22 +38,27 @@
 
 \title{The effect of electric field on potentiometric Scanning Electrochemical Microscopic imaging}
 \cortext[cor]{Corresponding author}
+\DIFaddbegin 
 
-\author[akiss]{András Kiss\corref{cor}$^{a,b,}$}
-\ead{akiss@gamma.ttk.pte.hu}
-\author[dfilotas]{Dániel Filotás$^{a,b,}$}
+\DIFaddend \author[akiss]{András Kiss\corref{cor}\DIFaddbegin \DIFadd{$^{a,b,}$}\DIFaddend }
+\DIFdelbegin %DIFDELCMD < \address[akiss, gnagy]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
+%DIFDELCMD < \address[rmsouto]{Department Chemistry, Universidad de La Laguna, P.O. Box 456, E-38200 La Laguna (Tenerife), Spain}
+%DIFDELCMD < %%%
+%DIF < \address[akiss, gnagy]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság Útja 20, Hungary}
+\DIFdelend \ead{akiss@gamma.ttk.pte.hu}
+\author[dfilotas]{Dániel Filotás\DIFaddbegin \DIFadd{$^{a,b,}$}\DIFaddend }
 \ead{filotasdaniel@gmail.com}
-\author[rmsouto]{Ricardo M. Souto$^{c,}$}
+\author[rmsouto]{Ricardo M. Souto\DIFaddbegin \DIFadd{$^{c,}$}\DIFaddend }
 \ead{rsouto@ull.es}
-\author[gnagy]{Géza Nagy$^{a,b,}$}
+\author[gnagy]{Géza Nagy\DIFaddbegin \DIFadd{$^{a,b,}$}\DIFaddend }
 \ead{g-nagy@gamma.ttk.pte.hu}
 
-\address[]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
+\DIFaddbegin \address[]{Department of General and Physical Chemistry, Faculty of Sciences, University of Pécs, 7624 Pécs, Ifjúság útja 6, Hungary}
 \address[]{János Szentágothai Research Centre, University of Pécs, 7624 Pécs, Ifjúság Útja 20, Hungary}
 \address[]{Department Chemistry, Universidad de La Laguna, P.O. Box 456, E-38200 La Laguna (Tenerife), Spain}
 
 
-\begin{abstract}
+\DIFaddend \begin{abstract}
 
 Potentiometric Scanning Electrochemical Microscopy (SECM) is a powerful tool in corrosion science.
 It allows the selective imaging of a particular ionic species released at the anodic sites in a corrosion microcell, by using ion-selective microelectrodes (ISMEs) as scanning probes. Galvanic corrosion is a particularly often studied process.
@@ -86,7 +108,9 @@ The potential difference between the points where the electrodes are located is 
 where $\Delta E$ is the measured potential difference, $E_R$ is the potential of the reference electrode, and $\phi_M$ and $\phi_R$ are the local potentials in the electric field at the measuring and reference electrodes, respectively. $E_M$ is the potential of the measuring ion-selective electrode for instance Mg$^{2+}$:
 
 \begin{equation}
-E_M = S \times \lg[\textrm{Mg}^{2+}] + E_M^o
+E_M = S \times \DIFdelbegin \DIFdel{lg}%DIFDELCMD < [%%%
+\DIFdel{Mg^{2+}}%DIFDELCMD < ] %%%
+\DIFdelend \DIFaddbegin \DIFadd{\lg[\textrm{Mg}^{2+}] }\DIFaddend + E_M^o
 \label{eq:measuring}
 \end{equation}
 
@@ -98,62 +122,77 @@ In this contribution, the effect of the electric field on the measured potential
 \section{Materials and methods}
 
 The preparation of solid contact Mg$^{2+}$ selective microelectrodes was described in detail before \cite{overmg3}. In brief, micropipettes were pulled from borosilicate capillaries (outer diameter $\oslash$ = 1.5 mm, inner dia. $\oslash$ = 1.0 mm, obtained from Hilgenberg GmbH, Malsfeld, Germany) with a Sutter Instruments P-30 type vertical capillary puller (Novato, CA, USA). The capillaries were silanized by 1 hour exposition to the saturated vapour of dichloro-dimethyl-silane at 120 $\celsius$. A poly-ethylen-dioxy-thiophene (PEDOT) coated carbon fiber of 33 $\upmu$m diameter (Specialty Materials, Lowell, MA, USA) served as the solid contact of the ISME. The PEDOT was electrochemically polymerized onto the carbon fiber and subsequently doped in KCl solution. The membrane components were purchased from Fluka (Buchs, Switzerland).
-The Mg-ISMEs were calibrated by measuring their potential against an Ag/AgCl/KCl (3M) reference electrode in MgCl$_2$ solutions with tenfold increased concentrations between $10^{-7}$ and $10^{-1}$ M. The activities were calculated using the Debye-Hückel approach. A Nernstian relationship was observed between $10^{-1}$ and $10^{-5}$ M; the equation of the linear portion of the calibration curve is E = 29.5 mV/$\lg [\textrm{Mg}^{2+}]$ + 98.3 mV ($R^2=0.9997$). The lower limit of detection was pMg = 5.3. Detailed characterization of the ISME regarding the resistance, response time, selectivity coefficients etc. can be found in \cite{overmg3, mihaelamg}.
+The Mg-ISMEs were calibrated by measuring their potential against an Ag/AgCl/KCl (3M) reference electrode in MgCl$_2$ solutions with tenfold increased concentrations between $10^{-7}$ and $10^{-1}$ M. The activities were calculated using the Debye-Hückel approach. A Nernstian relationship was observed between $10^{-1}$ and $10^{-5}$ M; the equation of the linear portion of the calibration curve is E = 29.5 mV/\DIFdelbegin \DIFdel{decade }\DIFdelend \DIFaddbegin \DIFadd{$\lg [\textrm{Mg}^{2+}]$ }\DIFaddend + 98.3 mV ($R^2=0.9997$). The lower limit of detection was pMg = 5.3. \DIFaddbegin \DIFadd{Detailed characterization of the ISME regarding the resistance, response time, selectivity coefficients etc. can be found in \mbox{%DIFAUXCMD
+\cite{overmg3, mihaelamg}}%DIFAUXCMD
+.
+}\DIFaddend 
 
 The (Mg/Al)/Fe galvanic couple specimen was prepared using the AZ63 Mg/Al alloy and high purity Fe wires of 0.76 mm diameter. The wires were mounted in an epoxy resin sleeve (Struers, Ballerup, Denmark), exposing only the disk shaped surfaces at one side of the mould, and protruding at the rear side allowing to establish electric contact contact. Frontal surface of the mould was first ground with SiC paper up to 4000 grit, then polished with 1.0 and 0.3 $\upmu$m alumina powders.
 
-SECM experiments were carried out using a homemade instrument operated with custom software. The potential values of the Mg ISMEs were measured with respect to an Ag/AgCl (3M KCl) reference electrode. All the measurements were performed using a high input impedance eDAQ pH ISE isoPod USB (eDAQ Pty Ltd, Australia). The testing electrolyte was 0.001 M NaCl solution throughout this work. The tip-sample distance was determined using the method described in \cite{overmg3}. The Z approaching curves were recorded with 10 $\upmu$m step size and 33 $\upmu$m/s effective scanning rate. The 2D scans were carried out with 100 $\upmu$m step size in both X and Y axes, and 100 $\upmu$m/s scanning rate following the widely applied meander algorithm.
+SECM experiments were carried out using a homemade instrument operated with custom software. The potential values of the Mg ISMEs were measured \DIFaddbegin \DIFadd{with }\DIFaddend respect to an Ag/AgCl (3M KCl) reference electrode. All the measurements were performed using a high input impedance eDAQ pH ISE isoPod USB (eDAQ Pty Ltd, Australia). \DIFaddbegin \DIFadd{The testing electrolyte was 0.001 M NaCl solution throughout this work. The tip-sample distance was determined using the method described in \mbox{%DIFAUXCMD
+\cite{overmg3}}%DIFAUXCMD
+. The Z approaching curves were recorded with 10 $\upmu$m step size and 33 $\upmu$m/s effective scanning rate. The 2D scans were carried out with 100 $\upmu$m step size in both X and Y axes, and 100 $\upmu$m/s scanning rate following the widely applied meander algorithm.
+}\DIFaddend 
 
 \section{Results and discussion}
 
-A series of consecutive Z-approach curves were recorded above the corroding AZ63 sample (as shown in fig. \ref{fig:approach}A). The first 6 measurements were taken while the AZ63 sample was not electrically connected to the iron sample (red lines, \emph{a-b}). As expected, Mg$^{2+}$ activity slowly increased with time as a result of spontaneous corrosion. The overall change was about 10 mV in 5 minutes. Next, the two metals were connected at the rear of the mould. As result of establishing the galvanic connection, there was an immediate rise of about 40 mV in the measured potential of the microelectrode (transition from \emph{b} to \emph{c}, depicted by $\Delta E_1$ in fig. \ref{fig:approach}A). Since the galvanic coupling was established while the scanning tip was located 1000 $\upmu$m from the AZ63 sample, the reported change cannot possibly be attributed solely to an abrupt increase in Mg$^{2+}$ activity. Indeed, such a 40 mV change would correspond to an increase of ca. 1.5 orders of magnitude in Mg$^{2+}$ activity occuring in less than one second. Immediately after, six additional Z-approach curves were recorded during the galvanic coupling. The resulting accelerated dissolution of Mg$^{2+}$ can be distinguished from the blue curves (\emph{c-d}) in fig. \ref{fig:approach}A. Intense gas evolution could be observed on the surface of the AZ63 sample, which explains the noticeably more noisy curves recorded in this case. During this period of galvanic coupling, the potential sensed at the ISME, when situated at h = 1000 $\upmu$m, increased in app. 40 mV. This rise ($\Delta E_2$) can be totally attributed to the increase in activity of the dissolving metal, i.e.: $\Delta E = 29.5 \; \textrm{mV} \times \Delta \lg[\textrm{Mg}^{2+}]$. Finally, when the galvanic connection was stopped, 2 additional Z-approach curves were measured (green curves in fig. \ref{fig:approach}A). A sudden jump in potential ($\Delta E_3$, transition from \emph{d} to \emph{e}) can be observed, of the same magnitude as before ($\Delta E_1$), though in the opposite direction, as a result of electric field vanishing. The shape of the latest Z-approach curves is very similar to the initial approaching curves recorded before galvanic connection was established (\emph{a-b}), though they are shifted by about 40 mV in the positive direction ($\Delta E_4$). This is the result of the enhanced corrosion during the second phase of the experiment; Mg$^{2+}$ activity changed by about the same factor along the length of the scan-line. The shape of the Z-approach curves recorded during the galvanic coupling is notoriously different from those recorded during the spontaneous corrosion of the metal. This is because the contribution of the electric field, just like the contribution from Mg$^{2+}$, is not uniform at different distances on the scanned line. The strength of the electric field is inversely proportional to the square of the distance. The shape of the function 1/$z^2$ is recognizable from these plots.
+A series of consecutive Z-approach curves were recorded above the corroding AZ63 sample (as shown in fig. \ref{fig:approach}A). The first 6 measurements were taken while the AZ63 sample was not electrically connected to the iron sample (red lines\DIFaddbegin \DIFadd{, }\emph{\DIFadd{a-b}}\DIFaddend ). As expected, Mg$^{2+}$ activity slowly increased with time as a result of spontaneous corrosion. The overall change was about 10 mV in 5 minutes. Next, the two metals were connected at the rear of the mould. As result of establishing the galvanic connection, there was an immediate rise of about 40 mV in the measured potential of the microelectrode (\DIFdelbegin \DIFdel{that is depicted by the transition from the red to the blue curves }\DIFdelend \DIFaddbegin \DIFadd{transition from }\emph{\DIFadd{b}} \DIFadd{to }\emph{\DIFadd{c}}\DIFadd{, depicted by $\Delta E_1$ }\DIFaddend in fig. \ref{fig:approach}A). Since the galvanic coupling was established while the scanning tip was located 1000 $\upmu$m from the AZ63 sample, the reported change cannot possibly be attributed solely to an abrupt increase in Mg$^{2+}$ activity. Indeed, such a 40 mV change would correspond to an increase of ca. 1.5 orders of magnitude in Mg$^{2+}$ activity occuring in less than one second. Immediately after, six additional Z-approach curves were recorded during the galvanic coupling. The resulting accelerated dissolution of Mg$^{2+}$ can be distinguished from the blue curves \DIFaddbegin \DIFadd{(}\emph{\DIFadd{c-d}}\DIFadd{) }\DIFaddend in fig. \ref{fig:approach}A. Intense gas evolution could be observed on the surface of the AZ63 sample, which explains the noticeably more noisy curves recorded in this case. During this period of galvanic coupling, the potential sensed at the ISME, when situated at h = 1000 $\upmu$m, increased in app. 40 mV. This rise \DIFaddbegin \DIFadd{($\Delta E_2$) }\DIFaddend can be totally attributed to the increase in activity of the dissolving metal, i.e.: \DIFdelbegin \DIFdel{$\Delta E = 29.5 mV \times \Delta lg[$Mg$^{2+}]$}\DIFdelend \DIFaddbegin \DIFadd{$\Delta E = 29.5 \; \textrm{mV} \times \Delta \lg[\textrm{Mg}^{2+}]$}\DIFaddend . Finally, when the galvanic connection was stopped, 2 additional Z-approach curves were measured (green curves in fig. \ref{fig:approach}A). A sudden jump in potential (\DIFdelbegin \DIFdel{transition from blue to green curves}\DIFdelend \DIFaddbegin \DIFadd{$\Delta E_3$, transition from }\emph{\DIFadd{d}} \DIFadd{to }\emph{\DIFadd{e}}\DIFaddend ) can be observed, of the same magnitude as before \DIFaddbegin \DIFadd{($\Delta E_1$)}\DIFaddend , though in the opposite direction, as a result of electric field vanishing. The shape of the latest Z-approach curves is very similar to the initial approaching curves recorded before galvanic connection was established \DIFaddbegin \DIFadd{(}\emph{\DIFadd{a-b}}\DIFadd{)}\DIFaddend , though they are shifted by about 40 mV in the positive direction \DIFaddbegin \DIFadd{($\Delta E_4$)}\DIFaddend . This is the result of the enhanced corrosion during the second phase of the experiment; Mg$^{2+}$ activity changed by about the same factor along the length of the scan-line. The shape of the Z-approach curves recorded during the galvanic coupling is notoriously different from those recorded during the spontaneous corrosion of the metal. This is because the contribution of the electric field, just like the contribution from Mg$^{2+}$, is not uniform at different distances on the scanned line. The strength of the electric field is inversely proportional to the square of the distance. The shape of the function 1/$z^2$ is recognizable from these plots.
 
-An attempt was made to distinguish the effect of the electric field from that of the Nernstian response of the ISME \cite{reviewer2} throughout the whole scanline by substracting curve \emph{b} from the subsequent curve \emph{c}. \emph{B} is the result of the Nernstian response, while \emph{c} features the contribution from the electric field as well. Since \emph{c} was recorded just after \emph{b} in a short period of time, it can be assumed that there was no significant increase of Mg$^{2+}$ concentration during these two scans, therefore \emph{c} is just \emph{b}+$\Delta \phi$. The result of the substraction is curve \emph{f} in fig. \ref{fig:approach}A, which can be regarded as the effect of the electric field formed between the galvanic pair.
+\DIFaddbegin \DIFadd{An attempt was made to distinguish the effect of the electric field from that of the Nernstian response of the ISME \mbox{%DIFAUXCMD
+\cite{reviewer2} }%DIFAUXCMD
+throughout the whole scanline by substracting curve }\emph{\DIFadd{b}} \DIFadd{from the subsequent curve }\emph{\DIFadd{c}}\DIFadd{. }\emph{\DIFadd{B}} \DIFadd{is the result of the Nernstian response, while }\emph{\DIFadd{c}} \DIFadd{features the contribution from the electric field as well. Since }\emph{\DIFadd{c}} \DIFadd{was recorded just after }\emph{\DIFadd{b}} \DIFadd{in a short period of time, it can be assumed that there was no significant increase of Mg$^{2+}$ concentration during these two scans, therefore }\emph{\DIFadd{c}} \DIFadd{is just }\emph{\DIFadd{b}}\DIFadd{+$\Delta \phi$. The result of the substraction is curve }\emph{\DIFadd{f}} \DIFadd{in fig. \ref{fig:approach}A, which can be regarded as the effect of the electric field formed between the galvanic pair.
+}
 
-\begin{figure}
+\DIFaddend \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{field-figure0.pdf}\includegraphics[width=0.466\textwidth]{field-figure1.pdf}
 %\begin{tikzpicture}
-%\begin{axis}[ymin=-80, ymax=80, xmin=0, xmax=1000, xlabel={height, $\upmu$m}, ylabel={E, mV vs Ag/AgCl/ 3M KCl}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left, ytick={-75, -50, -25, 0, 25, 50, 75}]
-%\addplot [line width=0.5mm, domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {1.txt};
+%DIF < \begin{axis}[ymin=-80, ymax=80, xmin=0, xmax=1000, xlabel={height, $\upmu$m}, ylabel={E, mV vs Ag/AgCl/ 3M KCl}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left]
+%DIF < \addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {1.txt};
+%DIF > \begin{axis}[ymin=-80, ymax=80, xmin=0, xmax=1000, xlabel={height, $\upmu$m}, ylabel={E, mV vs Ag/AgCl/ 3M KCl}, clip marker paths=true, width=7cm, height=7cm, legend style={draw=none}, legend cell align=left, ytick={-75, -50, -25, 0, 25, 50, 75}]
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {1.txt};
 %\addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {2.txt};
 %\addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {3.txt};
 %\addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {4.txt};
-%\addplot [line width=0.5mm, domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {5.txt};
+%DIF < \addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {5.txt};
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {5.txt};
 %\addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {6.txt};
 %\addplot [domain=0:1000, color=red, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {7.txt};
-%\addplot [line width=0.5mm, domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {8.txt};
+%DIF < \addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {8.txt};
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {8.txt};
 %\addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {9.txt};
 %\addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {10.txt};
 %\addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {11.txt};
 %\addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {12.txt};
-%\addplot [line width=0.5mm, domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {13.txt};
-%\addplot [line width=0.5mm, domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14.txt};
+%DIF < \addplot [domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {13.txt};
+%DIF < \addplot [domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14.txt};
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=blue, dashed, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {13.txt};
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {14.txt};
 %\addplot [domain=0:1000, color=green, densely dashdotted, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {15.txt};
-%\addplot [line width=0.5mm, domain=0:1000, color=cyan, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {16_field.txt};
+%DIF > \addplot [line width=0.5mm, domain=0:1000, color=cyan, y filter/.code={\pgfmathparse{\pgfmathresult*1000}}] table {16_field.txt};
 %\node[anchor=north east] at (rel axis cs:0.98,0.98) {A};
-%
-%\node[red, left] at (axis cs:100,-65) {a};
-%\node[red, left] at (axis cs:100,-48) {b};
-%\node[blue, left] at (axis cs:100,-9) {c};
-%\node[blue, left] at (axis cs:100,67) {d};
-%\node[green, left] at (axis cs:100,-22) {e};
-%\node[cyan, left] at (axis cs:100,45) {f};
-%
-%\draw [line width=0.25mm, black, ->] (axis cs:800,-53.5) -- (axis cs:800,-49);
-%\node[black, left] at (axis cs:800,-58) {$\Delta$E$_0$};
-%
-%\draw [line width=0.25mm, black, ->] (axis cs:800,-49) -- (axis cs:800,-21.5);
-%\node[black, left] at (axis cs:800,-36) {$\Delta$E$_1$};
-%
-%\draw [line width=0.25mm, black, ->] (axis cs:800,-21.4) -- (axis cs:800,13.5);
-%\node[black, left] at (axis cs:800,10) {$\Delta$E$_2$};
-%
-%\draw [line width=0.25mm, black, ->] (axis cs:830,13.5) -- (axis cs:830,-18);
-%\node[black, right] at (axis cs:830,5) {$\Delta$E$_3$};
-%
-%\draw [line width=0.25mm, black, ->] (axis cs:830,-49.5) -- (axis cs:830,-18);
-%\node[black, right] at (axis cs:830,-36) {$\Delta$E$_4$};
+%DIF > 
+%DIF > \node[red, left] at (axis cs:100,-65) {a};
+%DIF > \node[red, left] at (axis cs:100,-48) {b};
+%DIF > \node[blue, left] at (axis cs:100,-9) {c};
+%DIF > \node[blue, left] at (axis cs:100,67) {d};
+%DIF > \node[green, left] at (axis cs:100,-22) {e};
+%DIF > \node[cyan, left] at (axis cs:100,45) {f};
+%DIF > 
+%DIF > \draw [line width=0.25mm, black, ->] (axis cs:800,-53.5) -- (axis cs:800,-49);
+%DIF > \node[black, left] at (axis cs:800,-58) {$\Delta$E$_0$};
+%DIF > 
+%DIF > \draw [line width=0.25mm, black, ->] (axis cs:800,-49) -- (axis cs:800,-21.5);
+%DIF > \node[black, left] at (axis cs:800,-36) {$\Delta$E$_1$};
+%DIF > 
+%DIF > \draw [line width=0.25mm, black, ->] (axis cs:800,-21.4) -- (axis cs:800,13.5);
+%DIF > \node[black, left] at (axis cs:800,10) {$\Delta$E$_2$};
+%DIF > 
+%DIF > \draw [line width=0.25mm, black, ->] (axis cs:830,13.5) -- (axis cs:830,-18);
+%DIF > \node[black, right] at (axis cs:830,5) {$\Delta$E$_3$};
+%DIF > 
+%DIF > \draw [line width=0.25mm, black, ->] (axis cs:830,-49.5) -- (axis cs:830,-18);
+%DIF > \node[black, right] at (axis cs:830,-36) {$\Delta$E$_4$};
 %\end{axis}
 %\end{tikzpicture}
 %\begin{tikzpicture}
@@ -169,7 +208,7 @@ An attempt was made to distinguish the effect of the electric field from that of
 %\node[black, above] at (axis cs:460,125) {off};
 %\end{axis}
 %\end{tikzpicture}
-\caption{(A) Sequence of consecutive Z-approach curves recorded above the center of the AZ63 wire with a Mg$^{2+}$ ISME. Step size: 10 $\upmu$m. 500 ms settling time was allowed for the potentiometric cell at each points before measurements. Lines in chronological order: solid red (a-b) = spontaneous corrosion, dashed blue (c-d) = galvanic corrosion, dash dotted green (e-) = spontaneous corrosion. Solid cyan (f) was derived by substracting b from c. $\Delta E_0$ = potential increase due to spontaneous corrosion of AZ63, $\Delta E_1$ = potential jump due to the electric field appearing as a consequence of galvanic coupling established, $\Delta E_2$ = potential increase caused by the increase in Mg$^{2+}$ activity during galvanic corrosion, $\Delta E_3$ = potential jump associated with the electric field ceasing, $\Delta E_4$ = difference between \emph{b} and \emph{e}, the same as $\Delta E_2$. (B) Stationary recordings above the center of the AZ63 target with the ISME placed at: red = 100 $\upmu$m, blue = 1000 $\upmu$m distance from the metal. On/off denote the moment when galvanic coupling was either established or ceased. Temporal resolution was 1 Hz.}
+\caption{(A) Sequence of consecutive Z-approach curves recorded above the center of the AZ63 wire with a Mg$^{2+}$ ISME. Step size: 10 $\upmu$m. 500 ms settling time was allowed for the potentiometric cell at each points before measurements. Lines in chronological order: solid red \DIFaddbeginFL \DIFaddFL{(a-b) }\DIFaddendFL = spontaneous corrosion, dashed blue \DIFaddbeginFL \DIFaddFL{(c-d) }\DIFaddendFL = galvanic corrosion, dash dotted green \DIFaddbeginFL \DIFaddFL{(e-) }\DIFaddendFL = spontaneous corrosion. \DIFaddbeginFL \DIFaddFL{Solid cyan (f) was derived by substracting b from c. $\Delta E_0$ = potential increase due to spontaneous corrosion of AZ63, $\Delta E_1$ = potential jump due to the electric field appearing as a consequence of galvanic coupling established, $\Delta E_2$ = potential increase caused by the increase in Mg$^{2+}$ activity during galvanic corrosion, $\Delta E_3$ = potential jump associated with the electric field ceasing, $\Delta E_4$ = difference between }\emph{\DIFaddFL{b}} \DIFaddFL{and }\emph{\DIFaddFL{e}}\DIFaddFL{, the same as $\Delta E_2$. }\DIFaddendFL (B) Stationary recordings above the center of the AZ63 target with the ISME placed at: red = 100 $\upmu$m, blue = 1000 $\upmu$m distance from the metal. On/off denote the moment when galvanic coupling was either established or ceased. Temporal resolution was 1 Hz.}
 \label{fig:approach}
 \end{figure}
 
@@ -207,28 +246,34 @@ Based on the findings described in this work, this effect should be minimised by
 \begin{thebibliography}{5}
 
 \bibitem{lamaka}S.V. Lamaka, M.G. Taryba, M.L. Zheludkevich, M.G.S. Ferreira, Novel solid-contact ion-selective microelectrodes for localized potentiometric measurements, Electroanalysis 21 (2009) 2447-2453.
-\bibitem{ZnISME}J. Izquierdo, L. Nagy, Á. Varga, I. Bitter, G. Nagy, R.M. Souto, Scanning electrochemical microscopy for the investigation of corrosion processes: Measurement of  Zn$^{2+}$ spatial distribution with ion selective microelectrodes, Electrochimica Acta 59 (2012) 398–403. 
+\bibitem{ZnISME}J. Izquierdo, L. Nagy, Á. Varga, I. Bitter, G. Nagy, R.M. Souto, Scanning electrochemical microscopy for the investigation of corrosion processes: Measurement of  \DIFdelbegin \DIFdel{$Zn^{2+}$ }\DIFdelend \DIFaddbegin \DIFadd{Zn$^{2+}$ }\DIFaddend spatial distribution with ion selective microelectrodes, Electrochimica Acta 59 (2012) 398–403. 
 \bibitem{diamondel}E.L. Silva, A.C. Bastos, M.A. Neto, R.F. Silva, M.G.S. Ferreira, M.L. Zheludkevich, F.J. Oliveira, Novel diamond microelectrode for pH sensing, Electrochemistry Communications 40 (2014) 31–34.
-\bibitem{cutedge}A. Alvarez-Pampliega, S.V. Lamaka, M.G. Taryba, M. Madani, J. De Strycker, E. Tourwé, M.G.S. Ferreira, H. Terryn, Cut-edge corrosion study on painted aluminum rich metallic coated steel by scanning vibrating electrode and micro-potentiometric techniques, Electrochimica Acta 61 (2012) 107–117.	
-\bibitem{H+selective}E.A. Zdrachek. A.G. Karotkaya, V.A. Nazarov, K.A. Andronchyk, L.S. Stanishevskii, V.V. Egorov, M.G. Taryba, D. Snihirova, M. Kopylovich, S.V. Lamaka H$^{+}$-selective microelectrodes with optimized measuring range for corrosion studies, Sensors and Actuators B 207 (2015) 967–975.
-\bibitem{simulating}H. Shi, Z. Tian, T. Hu, F. Liu, E. H. Han, M. Taryba, S.V. Lamaka Simulating corrosion of Al$_2$CuMg phase by measuring ionic currents, chloride concentration and pH, Corrosion Science 88 (2014) 178–186.
+\bibitem{cutedge}A. Alvarez-Pampliega, S.V. Lamaka, M.G. Taryba, M. Madani, J. De Strycker, E. Tourwé, M.G.S. Ferreira, H. Terryn, Cut-edge corrosion study on painted aluminum rich metallic coated steel by scanning vibrating electrode and micro-potentiometric techniques\DIFaddbegin \DIFadd{, }\DIFaddend Electrochimica Acta 61 (2012) 107–117.	
+\bibitem{H+selective}E.A. Zdrachek. A.G. Karotkaya, V.A. Nazarov, K.A. Andronchyk, L.S. Stanishevskii, V.V. Egorov, M.G. Taryba, D. Snihirova, M. Kopylovich, S.V. Lamaka \DIFdelbegin \DIFdel{$H^{+}$}\DIFdelend \DIFaddbegin \DIFadd{H$^{+}$}\DIFaddend -selective microelectrodes with optimized measuring range for corrosion studies, Sensors and Actuators B 207 (2015) 967–975.
+\bibitem{simulating}H. Shi, Z. Tian, T. Hu, F. Liu, E. H. Han, M. Taryba, S.V. Lamaka Simulating corrosion of Al\DIFdelbegin \DIFdel{$_{2}$}\DIFdelend \DIFaddbegin \DIFadd{$_2$}\DIFaddend CuMg phase by measuring ionic currents, chloride concentration and pH, Corrosion Science 88 (2014) 178–186.
 \bibitem{amperopot}J. Izquierdo, L. Nagy, J.J. Santana, G. Nagy, R.M. Souto, A novel microelectrochemical strategy for the study of corrosion inhibitors employing the scanning vibrating electrode technique and dual potentiometric/amperometric operation in scanning electrochemical microscopy: Application to the study of the cathodic inhibition by benzotriazole of the galvanic corrosion of copper coupled to iron, Electrochimica Acta 58 (2011) 707-716.
 \bibitem{chloride}V.A. Nazarov, M.G. Taryba, E.A. Zdrachek, K.A. Andronchyk, V.V. Egorov, S.V. Lamaka, Sodium- and chloride-selective microelectrodes optimized for corrosion studies, Journal of Electroanalytical Chemistry 706 (2013) 13–24.
-\bibitem{spatiozn}E. Tada, S. Satoh, H. Kaneko, The spatial distribution of Zn$^{2+}$ during galvanic corrosion of a Zn/steel couple, Electrochimica Acta 49 (2004) 2279–2285.
+\bibitem{spatiozn}E. Tada, S. Satoh, H. Kaneko, The spatial distribution of \DIFdelbegin \DIFdel{$Zn^{2+}$ }\DIFdelend \DIFaddbegin \DIFadd{Zn$^{2+}$ }\DIFaddend during galvanic corrosion of a Zn/steel couple, Electrochimica Acta 49 (2004) 2279–2285.
 \bibitem{fezn}A.G. Marques M. Taryba A.S. Panao S. Lamaka, A.M. Simoes, Application of scanning electrode techniques for the evaluation of iron–zinc corrosion in nearly neutral chloride solutions, Corrosion Science 104 (2016) 123-131.
 \bibitem{pH15}J. Izquierdo, L. Nagy, I. Bitter, R.M. Souto, G. Nagy, Potentiometric scanning electrochemical microscopy for the local characterization of the electrochemical behaviour of magnesium-based materials, Electrochimica Acta 87 (2013) 283–293.
 \bibitem{overmg1}R.M. Souto, A. Kiss, J. Izquierdo, L. Nagy, I. Bitter, G. Nagy, Spatially-resolved imaging of concentration distributions on corroding magnesium-based materials exposed to aqueous environments by SECM, Electrochemistry Communications 26 (2013) 25–28.
-\bibitem{overmg2}R.M. Souto, J Izquierdo, J.J. Santana, A Kiss, L Nagy, G Nagy, Progress in scanning electrochemical microscopy by coupling potentiometric and amperometric measurement modes, A Méndez-Vilas (Ed.), Current microscopy contributions to advances in science and technology, Formatex Research Center, Badajoz Spain 2012. pp. 1407-1415.
-\bibitem{overmg3}J. Izquierdo, A. Kiss, J. J. Santana, L. Nagy, I. Bitter, H. S. Isaacs, G. Nagy, R. M. Souto, Development of Mg$^{2+}$ ion-selective microelectrodes for potentiometric scanning electrochemical microscopy monitoring of galvanic corrosion processes, Journal of the Electrochemical Society  160 (2013) 451-459. 
-\bibitem{belowmg}J. Izquierdo, B. M. Fernández-Pérez, D. Filotás, Z. Őri, A. Kiss, R.T. Martín-Gómez, L. Nagy, G. Nagy, R. M. Souto, Imaging of concentration distributions and hydrogen evolution on corroding magnesium exposed to aqueous environments using scanning electrochemical microscopy, Electroanalysis 28 (2016) 2354-2366.
-\bibitem{Isaacsfield}H.S. Isaacs, B. Vyas, Scanning reference electrode techniques in localized corrosion, in: F. Mansfeld, U. Bertocci (Eds.), Electrochemical Corrosion Testing, ASTM STP 727, American Society for Testing and Materials, Philadelphia PA, 1981.
-\bibitem{SRET1}H.N. McMurray, S.R. Magill, B.D. Jeffs, Scanning reference electrode technique as tool for investigating localised corrosion phenomena in galvanised steels, Ironmaking \& Steelmaking 23 (1996) 183–188.
+\bibitem{overmg2}R.M. Souto, J Izquierdo, J.J. Santana, A Kiss, L Nagy, G Nagy\DIFaddbegin \DIFadd{, }\DIFaddend Progress in scanning electrochemical microscopy by coupling potentiometric and amperometric measurement modes\DIFaddbegin \DIFadd{, }\DIFaddend A Méndez-Vilas (Ed.)\DIFaddbegin \DIFadd{, }\DIFaddend Current microscopy contributions to advances in science and technology\DIFdelbegin \DIFdel{. }\DIFdelend \DIFaddbegin \DIFadd{, }\DIFaddend Formatex Research Center, Badajoz Spain 2012. pp. 1407-1415.
+\bibitem{overmg3}J. Izquierdo, A. Kiss, J. J. Santana, L. Nagy, I. Bitter, H. S. Isaacs, G. Nagy, R. M. Souto\DIFdelbegin \DIFdel{Development of $Mg^{2+}$ }\DIFdelend \DIFaddbegin \DIFadd{, Development of Mg$^{2+}$ }\DIFaddend ion-selective microelectrodes for potentiometric scanning electrochemical microscopy monitoring of galvanic corrosion processes\DIFaddbegin \DIFadd{, }\DIFaddend Journal of the Electrochemical Society  160 (2013) 451-459. 
+\bibitem{belowmg}J. Izquierdo, B. M. Fernández-Pérez, D. Filotás, Z. Őri, A. Kiss, R.T. Martín-Gómez, L. Nagy, G. Nagy, R. M. Souto, Imaging of concentration distributions and hydrogen evolution on corroding magnesium exposed to aqueous environments using scanning electrochemical microscopy, Electroanalysis 28 (2016) \DIFdelbegin \DIFdel{1–14.
+}\DIFdelend \DIFaddbegin \DIFadd{2354-2366.
+}\DIFaddend \bibitem{Isaacsfield}H.S. Isaacs, B. Vyas\DIFaddbegin \DIFadd{, }\DIFaddend Scanning reference electrode techniques in localized corrosion, in: F. Mansfeld, U. Bertocci (Eds.), Electrochemical Corrosion Testing, ASTM STP 727, American Society for Testing and Materials, Philadelphia PA, \DIFdelbegin \DIFdel{1981, p. 3-33.
+}\DIFdelend \DIFaddbegin \DIFadd{1981.
+}\DIFaddend \bibitem{SRET1}H.N. McMurray, S.R. Magill, B.D. Jeffs, Scanning reference electrode technique as tool for investigating localised corrosion phenomena in galvanised steels, Ironmaking \& Steelmaking 23 (1996) 183–188.
 \bibitem{SRET2}V.S. Voruganti, H.B. Luft, D. DeGeer, S.A. Bradford, Scanning reference electrode technique for the investigation of preferential corrosion of weldments in offshore applications, Corrosion 47 (1991) 343–351.
 \bibitem{SRET3}H.S. Isaacs, G. Kissel, Surface preparation and pit propagation in stainless steels, Journal of The Electrochemical Society 119 (1972) 1628–1632.
 \bibitem{SRET4}N. Hsu, J.D. Garber, R. Brunel, R.D. Braun, A scanning reference electrode for use during corrosive measurements, Corrosion 43 (1987) 606–610.
-\bibitem{SVET}H.S. Isaacs, The use of the scanning vibrating electrode technique for detecting defects in ion vapor-deposited aluminum on steel, Corrosion 43 (1987) 594–596.
-\bibitem{mihaelamg} M. Calugareanu, G. Nagy, A.M. Josceanu, L. Nagy, Ion selective electrodes for microalgal biotechnology, Revista de Chimie 64 (2013) 205-209.
-\bibitem{reviewer2} Comment raised by a reviewer to the manuscript. Authors are greatly indebted for the valuable contribution.
-\end{thebibliography}
+\bibitem{SVET}H.S. Isaacs, The use of the scanning vibrating electrode technique for detecting defects in ion vapor-deposited aluminum on steel, Corrosion 43 (1987) 594–\DIFdelbegin \DIFdel{598.   
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{596.
+}\bibitem{mihaelamg} \DIFadd{M. Calugareanu, G. Nagy, A.M. Josceanu, L. Nagy, Ion selective electrodes for microalgal biotechnology, Revista de Chimie 64 (2013) 205-209.
+}\bibitem{reviewer2} \DIFadd{Comment raised by a reviewer to the manuscript. Authors are greatly indebted for the valuable contribution.
+}\DIFaddend \end{thebibliography}
 
 \end{document}

@@ -9,8 +9,8 @@ gnuplot spatio
 #   ps2pdf $i
 #done
 
-pdflatex -shell-escape field.tex
-pdflatex -shell-escape field.tex
-pdflatex -shell-escape field.tex
+pdflatex -shell-escape diff.tex
+pdflatex -shell-escape diff.tex
+pdflatex -shell-escape diff.tex
 
 #./clean.sh
